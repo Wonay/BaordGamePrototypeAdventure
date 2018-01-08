@@ -5,4 +5,7 @@
 
 
 class Card(object):
-    pass
+     def __init__(self, serial, name, description):
+     	self.serial = serial
+     	self.name = name
+     	self.description = description
